@@ -1,0 +1,12 @@
+{
+    "name": "aaronmacaron/reaction",
+    "description": "Library for dealing with reactions of actions",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Aaron Ebnöther",
+            "email": "aaron.ebnoether@gmail.com"
+        }
+    ],
+    "require": {}
+}

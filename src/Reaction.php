@@ -130,4 +130,24 @@ class Reaction
         return in_array($type, $validTypes);
     }
 
+    /**
+     * Getter for $this->message
+     *
+     * @return string
+     */
+    public function getMessage(): string
+    {
+        return $this->message;
+    }
+
+    /**
+     * Getter for $this->type
+     *
+     * @return int
+     */
+    public function getType(): int
+    {
+        return $this->type;
+    }
+
 }

@@ -8,5 +8,16 @@
             "email": "aaron.ebnoether@gmail.com"
         }
     ],
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "Aaronmacaron\\Reaction\\": "src/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7.1"
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
+    }
 }

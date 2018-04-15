@@ -149,5 +149,4 @@ class Reaction
     {
         return $this->type;
     }
-
 }

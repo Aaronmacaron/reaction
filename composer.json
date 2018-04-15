@@ -21,8 +21,9 @@
     },
     "scripts": {
         "test": "./vendor/bin/phpunit",
-        "phpmd": "./vendor/bin/phpmd ./src,./tests text cleancode,codesize,controversial,design,naming,unusedcode",
+        "phpmd": "./vendor/bin/phpmd ./src text codesize,design,naming,unusedcode",
         "phpcs": "./vendor/bin/phpcs",
+        "phpcbf": "./vendor/bin/phpcbf",
         "check": [
             "@test",
             "@phpmd",

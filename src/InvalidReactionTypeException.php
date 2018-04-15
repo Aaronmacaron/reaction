@@ -2,7 +2,6 @@
 
 namespace Aaronmacaron\Reaction;
 
-
 use Exception;
 use Throwable;
 
@@ -28,8 +27,7 @@ class InvalidReactionTypeException extends Exception
         string $message = null,
         int $code = 0,
         Throwable $previous = null
-    )
-    {
+    ) {
         if ($message === null) {
             $message = "${type} is not a valid reaction type value.";
         }
@@ -59,5 +57,4 @@ class InvalidReactionTypeException extends Exception
     {
         return $this->reaction;
     }
-
 }

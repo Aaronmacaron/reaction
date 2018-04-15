@@ -81,7 +81,7 @@ class ReactionTest extends TestCase
         $this->assertEquals($failure, $newReaction);
     }
 
-    public function test__construct()
+    public function testConstruct()
     {
         $message = 'message';
         try {
@@ -94,7 +94,7 @@ class ReactionTest extends TestCase
         $this->assertInstanceOf(Reaction::class, $reaction);
     }
 
-    public function test__constructThrowsExceptionIfInvalidTypeIsPassed()
+    public function testConstructThrowsExceptionIfInvalidTypeIsPassed()
     {
         $message = 'message';
         try {
@@ -225,7 +225,8 @@ class ReactionTest extends TestCase
         $this->assertEquals('', $success->getMessage());
     }
 
-    public function testGetType() {
+    public function testGetType()
+    {
         $type = Reaction::SUCCESS;
 
         try {
@@ -237,5 +238,4 @@ class ReactionTest extends TestCase
 
         $this->assertEquals($type, $success->getType());
     }
-
 }

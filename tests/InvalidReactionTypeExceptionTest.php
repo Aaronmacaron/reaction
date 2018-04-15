@@ -1,7 +1,10 @@
 <?php
 
+namespace Aaronmacaron\Reaction\Tests;
+
 use Aaronmacaron\Reaction\InvalidReactionTypeException;
 use Aaronmacaron\Reaction\Reaction;
+use Exception;
 use PHPUnit\Framework\TestCase;
 
 class InvalidReactionTypeExceptionTest extends TestCase
@@ -33,7 +36,7 @@ class InvalidReactionTypeExceptionTest extends TestCase
         $this->assertEquals($reaction, $e->getReaction());
     }
 
-    public function test__construct()
+    public function testConstruct()
     {
         try {
             $reaction = Reaction::success();

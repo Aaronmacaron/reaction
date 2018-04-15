@@ -13,7 +13,9 @@
             "Aaronmacaron\\Reaction\\": "src/"
         }
     },
-    "require": {},
+    "require": {
+        "php": ">=7.1"
+    },
     "require-dev": {
         "phpunit/phpunit": "^7.1",
         "phpmd/phpmd": "^2.6",

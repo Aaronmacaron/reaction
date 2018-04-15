@@ -1,7 +1,7 @@
 # Reaction Library
 
-![Travis](https://img.shields.io/travis/Aaronmacaron/reaction.svg?style=flat-square)
-![Packagist](https://img.shields.io/packagist/dt/aaronmacaron/reaction.svg?style=flat-square)
+[![Travis](https://img.shields.io/travis/Aaronmacaron/reaction.svg?style=flat-square)](https://travis-ci.org/Aaronmacaron/reaction)
+[![Packagist](https://img.shields.io/packagist/dt/aaronmacaron/reaction.svg?style=flat-square)](https://packagist.org/packages/aaronmacaron/reaction)
 
 
 This library makes it easy to handle reactions of actions, methods and functions. If you are dealing with methods that can either be successful or fail and want more information about the result of the method, you can use a reaction.

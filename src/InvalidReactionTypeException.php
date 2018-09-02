@@ -2,10 +2,10 @@
 
 namespace Aaronmacaron\Reaction;
 
-use Exception;
+use RuntimeException;
 use Throwable;
 
-class InvalidReactionTypeException extends Exception
+class InvalidReactionTypeException extends RuntimeException
 {
     /** @var $type int */
     private $type;

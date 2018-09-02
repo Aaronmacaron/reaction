@@ -28,7 +28,6 @@ class Reaction
      *
      * @param $message
      * @param $type
-     * @throws InvalidReactionTypeException
      */
     public function __construct(string $message, int $type)
     {
@@ -95,7 +94,6 @@ class Reaction
      *
      * @param string $message The message of the reaction
      * @return Reaction The newly generated reaction.
-     * @throws InvalidReactionTypeException
      */
     public static function success($message = ''): Reaction
     {
@@ -107,7 +105,6 @@ class Reaction
      *
      * @param string $message The message of the reaction
      * @return Reaction The newly generated reaction.
-     * @throws InvalidReactionTypeException
      */
     public static function failure($message = ''): Reaction
     {

@@ -95,7 +95,7 @@ class Reaction
      * @param string $message The message of the reaction
      * @return Reaction The newly generated reaction.
      */
-    public static function success($message = ''): Reaction
+    public static function success(string $message = ''): Reaction
     {
         return new Reaction($message, Reaction::SUCCESS);
     }
@@ -106,7 +106,7 @@ class Reaction
      * @param string $message The message of the reaction
      * @return Reaction The newly generated reaction.
      */
-    public static function failure($message = ''): Reaction
+    public static function failure(string $message = ''): Reaction
     {
         return new Reaction($message, Reaction::FAILURE);
     }
